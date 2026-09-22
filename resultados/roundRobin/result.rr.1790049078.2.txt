@@ -1,0 +1,408 @@
+       ROUND ROBIN (q= 2)
+Tiempo 0 - 2; P1
+Tiempo 2 - 4; P2
+Tiempo 4 - 6; P3
+Tiempo 6 - 8; P2
+Tiempo 8 - 10; P4
+Tiempo 10 - 12; P3
+Tiempo 12 - 14; P5
+Tiempo 14 - 16; P6
+Tiempo 16 - 18; P4
+Tiempo 18 - 20; P7
+Tiempo 20 - 22; P3
+Tiempo 22 - 24; P8
+Tiempo 24 - 26; P5
+Tiempo 26 - 28; P9
+Tiempo 28 - 30; P10
+Tiempo 30 - 32; P4
+Tiempo 32 - 34; P11
+Tiempo 34 - 36; P7
+Tiempo 36 - 38; P12
+Tiempo 38 - 40; P13
+Tiempo 40 - 42; P8
+Tiempo 42 - 44; P14
+Tiempo 44 - 46; P5
+Tiempo 46 - 48; P15
+Tiempo 48 - 50; P9
+Tiempo 50 - 52; P16
+Tiempo 52 - 54; P10
+Tiempo 54 - 56; P17
+Tiempo 56 - 58; P4
+Tiempo 58 - 60; P18
+Tiempo 60 - 62; P19
+Tiempo 62 - 64; P20
+Tiempo 64 - 66; P12
+Tiempo 66 - 68; P21
+Tiempo 68 - 70; P13
+Tiempo 70 - 72; P22
+Tiempo 72 - 74; P8
+Tiempo 74 - 76; P23
+Tiempo 76 - 78; P14
+Tiempo 78 - 80; P24
+Tiempo 80 - 82; P5
+Tiempo 82 - 84; P25
+Tiempo 84 - 86; P15
+Tiempo 86 - 88; P26
+Tiempo 88 - 90; P9
+Tiempo 90 - 92; P27
+Tiempo 92 - 94; P28
+Tiempo 94 - 96; P10
+Tiempo 96 - 98; P29
+Tiempo 98 - 100; P17
+Tiempo 100 - 102; P30
+Tiempo 102 - 104; P31
+Tiempo 104 - 106; P18
+Tiempo 106 - 108; P32
+Tiempo 108 - 110; P19
+Tiempo 110 - 112; P33
+Tiempo 112 - 114; P20
+Tiempo 114 - 116; P34
+Tiempo 116 - 118; P35
+Tiempo 118 - 120; P36
+Tiempo 120 - 122; P13
+Tiempo 122 - 124; P37
+Tiempo 124 - 126; P22
+Tiempo 126 - 128; P38
+Tiempo 128 - 130; P39
+Tiempo 130 - 132; P23
+Tiempo 132 - 134; P40
+Tiempo 134 - 136; P14
+Tiempo 136 - 138; P41
+Tiempo 138 - 140; P24
+Tiempo 140 - 142; P42
+Tiempo 142 - 144; P5
+Tiempo 144 - 146; P43
+Tiempo 146 - 148; P25
+Tiempo 148 - 150; P44
+Tiempo 150 - 152; P15
+Tiempo 152 - 154; P45
+Tiempo 154 - 156; P46
+Tiempo 156 - 158; P9
+Tiempo 158 - 160; P47
+Tiempo 160 - 162; P27
+Tiempo 162 - 164; P48
+Tiempo 164 - 166; P28
+Tiempo 166 - 168; P49
+Tiempo 168 - 170; P10
+Tiempo 170 - 172; P50
+Tiempo 172 - 174; P29
+Tiempo 174 - 176; P51
+Tiempo 176 - 178; P52
+Tiempo 178 - 180; P30
+Tiempo 180 - 182; P53
+Tiempo 182 - 184; P54
+Tiempo 184 - 186; P18
+Tiempo 186 - 188; P55
+Tiempo 188 - 190; P32
+Tiempo 190 - 192; P56
+Tiempo 192 - 194; P19
+Tiempo 194 - 196; P57
+Tiempo 196 - 198; P33
+Tiempo 198 - 200; P58
+Tiempo 200 - 202; P20
+Tiempo 202 - 204; P59
+Tiempo 204 - 206; P34
+Tiempo 206 - 208; P60
+Tiempo 208 - 210; P35
+Tiempo 210 - 212; P61
+Tiempo 212 - 214; P62
+Tiempo 214 - 216; P63
+Tiempo 216 - 218; P37
+Tiempo 218 - 220; P64
+Tiempo 220 - 222; P65
+Tiempo 222 - 224; P38
+Tiempo 224 - 226; P66
+Tiempo 226 - 228; P39
+Tiempo 228 - 230; P67
+Tiempo 230 - 232; P23
+Tiempo 232 - 234; P68
+Tiempo 234 - 236; P40
+Tiempo 236 - 238; P69
+Tiempo 238 - 240; P14
+Tiempo 240 - 242; P70
+Tiempo 242 - 244; P71
+Tiempo 244 - 246; P24
+Tiempo 246 - 248; P72
+Tiempo 248 - 250; P42
+Tiempo 250 - 252; P73
+Tiempo 252 - 254; P74
+Tiempo 254 - 256; P43
+Tiempo 256 - 258; P75
+Tiempo 258 - 260; P25
+Tiempo 260 - 262; P76
+Tiempo 262 - 264; P44
+Tiempo 264 - 266; P77
+Tiempo 266 - 268; P15
+Tiempo 268 - 270; P78
+Tiempo 270 - 272; P45
+Tiempo 272 - 274; P79
+Tiempo 274 - 276; P80
+Tiempo 276 - 278; P81
+Tiempo 278 - 280; P47
+Tiempo 280 - 282; P82
+Tiempo 282 - 284; P83
+Tiempo 284 - 286; P48
+Tiempo 286 - 288; P84
+Tiempo 288 - 290; P28
+Tiempo 290 - 292; P85
+Tiempo 292 - 294; P49
+Tiempo 294 - 296; P86
+Tiempo 296 - 298; P10
+Tiempo 298 - 300; P87
+Tiempo 300 - 302; P50
+Tiempo 302 - 304; P88
+Tiempo 304 - 306; P29
+Tiempo 306 - 308; P89
+Tiempo 308 - 310; P90
+Tiempo 310 - 312; P52
+Tiempo 312 - 314; P91
+Tiempo 314 - 316; P30
+Tiempo 316 - 318; P92
+Tiempo 318 - 320; P53
+Tiempo 320 - 322; P93
+Tiempo 322 - 324; P54
+Tiempo 324 - 326; P94
+Tiempo 326 - 328; P95
+Tiempo 328 - 330; P55
+Tiempo 330 - 332; P96
+Tiempo 332 - 334; P97
+Tiempo 334 - 336; P98
+Tiempo 336 - 338; P19
+Tiempo 338 - 340; P99
+Tiempo 340 - 342; P57
+Tiempo 342 - 344; P100
+Tiempo 344 - 346; P33
+Tiempo 346 - 348; P58
+Tiempo 348 - 350; P20
+Tiempo 350 - 352; P59
+Tiempo 352 - 354; P34
+Tiempo 354 - 356; P60
+Tiempo 356 - 358; P35
+Tiempo 358 - 360; P62
+Tiempo 360 - 362; P63
+Tiempo 362 - 364; P64
+Tiempo 364 - 366; P65
+Tiempo 366 - 368; P38
+Tiempo 368 - 370; P39
+Tiempo 370 - 372; P67
+Tiempo 372 - 374; P68
+Tiempo 374 - 376; P40
+Tiempo 376 - 378; P69
+Tiempo 378 - 380; P70
+Tiempo 380 - 382; P24
+Tiempo 382 - 384; P72
+Tiempo 384 - 386; P73
+Tiempo 386 - 388; P74
+Tiempo 388 - 390; P43
+Tiempo 390 - 392; P75
+Tiempo 392 - 394; P25
+Tiempo 394 - 396; P44
+Tiempo 396 - 398; P77
+Tiempo 398 - 400; P15
+Tiempo 400 - 402; P78
+Tiempo 402 - 404; P45
+Tiempo 404 - 406; P79
+Tiempo 406 - 408; P80
+Tiempo 408 - 410; P82
+Tiempo 410 - 412; P83
+Tiempo 412 - 414; P48
+Tiempo 414 - 416; P84
+Tiempo 416 - 418; P85
+Tiempo 418 - 420; P49
+Tiempo 420 - 422; P87
+Tiempo 422 - 424; P50
+Tiempo 424 - 426; P88
+Tiempo 426 - 428; P29
+Tiempo 428 - 430; P89
+Tiempo 430 - 432; P90
+Tiempo 432 - 434; P30
+Tiempo 434 - 436; P92
+Tiempo 436 - 438; P53
+Tiempo 438 - 440; P93
+Tiempo 440 - 442; P54
+Tiempo 442 - 444; P94
+Tiempo 444 - 446; P95
+Tiempo 446 - 448; P55
+Tiempo 448 - 450; P97
+Tiempo 450 - 452; P98
+Tiempo 452 - 454; P99
+Tiempo 454 - 456; P100
+Tiempo 456 - 458; P58
+Tiempo 458 - 460; P20
+Tiempo 460 - 462; P59
+Tiempo 462 - 464; P34
+Tiempo 464 - 466; P60
+Tiempo 466 - 468; P35
+Tiempo 468 - 470; P63
+Tiempo 470 - 472; P64
+Tiempo 472 - 474; P65
+Tiempo 474 - 476; P39
+Tiempo 476 - 478; P68
+Tiempo 478 - 480; P40
+Tiempo 480 - 482; P69
+Tiempo 482 - 484; P70
+Tiempo 484 - 486; P73
+Tiempo 486 - 488; P74
+Tiempo 488 - 490; P75
+Tiempo 490 - 492; P25
+Tiempo 492 - 494; P44
+Tiempo 494 - 496; P78
+Tiempo 496 - 498; P45
+Tiempo 498 - 500; P79
+Tiempo 500 - 502; P80
+Tiempo 502 - 504; P83
+Tiempo 504 - 506; P84
+Tiempo 506 - 508; P85
+Tiempo 508 - 510; P49
+Tiempo 510 - 512; P50
+Tiempo 512 - 514; P88
+Tiempo 514 - 516; P89
+Tiempo 516 - 518; P90
+Tiempo 518 - 520; P30
+Tiempo 520 - 522; P93
+Tiempo 522 - 524; P54
+Tiempo 524 - 526; P94
+Tiempo 526 - 528; P95
+Tiempo 528 - 530; P55
+Tiempo 530 - 532; P98
+Tiempo 532 - 534; P99
+Tiempo 534 - 536; P100
+Tiempo 536 - 538; P59
+Tiempo 538 - 540; P60
+Tiempo 540 - 542; P35
+Tiempo 542 - 544; P64
+Tiempo 544 - 546; P65
+Tiempo 546 - 548; P40
+Tiempo 548 - 550; P69
+Tiempo 550 - 552; P70
+Tiempo 552 - 554; P74
+Tiempo 554 - 556; P75
+Tiempo 556 - 558; P45
+Tiempo 558 - 560; P79
+Tiempo 560 - 562; P80
+Tiempo 562 - 564; P84
+Tiempo 564 - 566; P85
+Tiempo 566 - 568; P50
+Tiempo 568 - 570; P89
+Tiempo 570 - 572; P90
+Tiempo 572 - 574; P94
+Tiempo 574 - 576; P95
+Tiempo 576 - 578; P55
+Tiempo 578 - 580; P99
+Tiempo 580 - 582; P100
+Tiempo 582 - 584; P60
+Tiempo 584 - 586; P65
+Tiempo 586 - 588; P70
+Tiempo 588 - 590; P75
+Tiempo 590 - 592; P80
+Tiempo 592 - 594; P85
+Tiempo 594 - 596; P90
+Tiempo 596 - 598; P95
+Tiempo 598 - 600; P100
+Mostramos resultados: 
+Proceso   Llegada   Burst  Inicio   Fin   Espera   Retorno   Respuesta
+P1       0        2      0       2    0       2        0        
+P2       2        4      2       8    2       6        0        
+P3       4        6      4       22   12      18       0        
+P4       6        8      8       58   44      52       2        
+P5       8        10     12      144  126     136      4        
+P6       10       2      14      16   4       6        4        
+P7       12       4      18      36   20      24       6        
+P8       14       6      22      74   54      60       8        
+P9       16       8      26      158  134     142      10       
+P10      18       10     28      298  270     280      10       
+P11      20       2      32      34   12      14       12       
+P12      22       4      36      66   40      44       14       
+P13      24       6      38      122  92      98       14       
+P14      26       8      42      240  206     214      16       
+P15      28       10     46      400  362     372      18       
+P16      30       2      50      52   20      22       20       
+P17      32       4      54      100  64      68       22       
+P18      34       6      58      186  146     152      24       
+P19      36       8      60      338  294     302      24       
+P20      38       10     62      460  412     422      24       
+P21      40       2      66      68   26      28       26       
+P22      42       4      70      126  80      84       28       
+P23      44       6      74      232  182     188      30       
+P24      46       8      78      382  328     336      32       
+P25      48       10     82      492  434     444      34       
+P26      50       2      86      88   36      38       36       
+P27      52       4      90      162  106     110      38       
+P28      54       6      92      290  230     236      38       
+P29      56       8      96      428  364     372      40       
+P30      58       10     100     520  452     462      42       
+P31      60       2      102     104  42      44       42       
+P32      62       4      106     190  124     128      44       
+P33      64       6      110     346  276     282      46       
+P34      66       8      114     464  390     398      48       
+P35      68       10     116     542  464     474      48       
+P36      70       2      118     120  48      50       48       
+P37      72       4      122     218  142     146      50       
+P38      74       6      126     368  288     294      52       
+P39      76       8      128     476  392     400      52       
+P40      78       10     132     548  460     470      54       
+P41      80       2      136     138  56      58       56       
+P42      82       4      140     250  164     168      58       
+P43      84       6      144     390  300     306      60       
+P44      86       8      148     494  400     408      62       
+P45      88       10     152     558  460     470      64       
+P46      90       2      154     156  64      66       64       
+P47      92       4      158     280  184     188      66       
+P48      94       6      162     414  314     320      68       
+P49      96       8      166     510  406     414      70       
+P50      98       10     170     568  460     470      72       
+P51      100      2      174     176  74      76       74       
+P52      102      4      176     312  206     210      74       
+P53      104      6      180     438  328     334      76       
+P54      106      8      182     524  410     418      76       
+P55      108      10     186     578  460     470      78       
+P56      110      2      190     192  80      82       80       
+P57      112      4      194     342  226     230      82       
+P58      114      6      198     458  338     344      84       
+P59      116      8      202     538  414     422      86       
+P60      118      10     206     584  456     466      88       
+P61      120      2      210     212  90      92       90       
+P62      122      4      212     360  234     238      90       
+P63      124      6      214     470  340     346      90       
+P64      126      8      218     544  410     418      92       
+P65      128      10     220     586  448     458      92       
+P66      130      2      224     226  94      96       94       
+P67      132      4      228     372  236     240      96       
+P68      134      6      232     478  338     344      98       
+P69      136      8      236     550  406     414      100      
+P70      138      10     240     588  440     450      102      
+P71      140      2      242     244  102     104      102      
+P72      142      4      246     384  238     242      104      
+P73      144      6      250     486  336     342      106      
+P74      146      8      252     554  400     408      106      
+P75      148      10     256     590  432     442      108      
+P76      150      2      260     262  110     112      110      
+P77      152      4      264     398  242     246      112      
+P78      154      6      268     496  336     342      114      
+P79      156      8      272     560  396     404      116      
+P80      158      10     274     592  424     434      116      
+P81      160      2      276     278  116     118      116      
+P82      162      4      280     410  244     248      118      
+P83      164      6      282     504  334     340      118      
+P84      166      8      286     564  390     398      120      
+P85      168      10     290     594  416     426      122      
+P86      170      2      294     296  124     126      124      
+P87      172      4      298     422  246     250      126      
+P88      174      6      302     514  334     340      128      
+P89      176      8      306     570  386     394      130      
+P90      178      10     308     596  408     418      130      
+P91      180      2      312     314  132     134      132      
+P92      182      4      316     436  250     254      134      
+P93      184      6      320     522  332     338      136      
+P94      186      8      324     574  380     388      138      
+P95      188      10     326     598  400     410      138      
+P96      190      2      330     332  140     142      140      
+P97      192      4      332     450  254     258      140      
+P98      194      6      334     532  332     338      140      
+P99      196      8      338     580  376     384      142      
+P100     198      10     342     600  392     402      144      
+
+Promedios:
+Tiempo de espera promedio: 250.16
+Tiempo de retorno promedio: 256.16
+Tiempo de respuesta promedio: 71.52

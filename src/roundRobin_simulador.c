@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+#include <limits.h>
+#include <time.h>
+#include <sys/stat.h>
 
 #define MAX_PROCESOS 200   // por si quieren simular mas de 100
 
@@ -39,6 +43,16 @@ void simulate_rr(Process *p, int n, int quantum){
     // Cantidad de procesos que ya terminaron
     int terminados = 0;
 
+    time_t t = time(NULL);
+    char out_filename[256];
+    snprintf(out_filename, sizeof(out_filename), "resultados/roundRobin/result.rr.%ld.%d.txt", (long)t, quantum);
+
+    FILE *outfile = fopen(out_filename, "w");
+    if (outfile == NULL) {
+        printf("Error: No se pudo crear el archivo '%s'\n", out_filename);
+        return;
+    }
+
     // reinciar los datos de la simulacion
     for(int i= 0; i < n; i++){
         p[i].remaining = p[i].burst;
@@ -49,7 +63,7 @@ void simulate_rr(Process *p, int n, int quantum){
         p[i].response_time = -1;
     }
 
-    printf("       ROUND ROBIN (q= %d)\n", quantum);
+    fprintf(outfile, "       ROUND ROBIN (q= %d)\n", quantum);
 
     //La simulacion termina cuando todos los procesos lo hagan
     while (terminados < n){
@@ -100,7 +114,7 @@ void simulate_rr(Process *p, int n, int quantum){
 
         //ejecucion del proceso
 
-        printf("Tiempo %d - %d; P%d\n", tiempo, tiempo + tiempo_ejecucion, p[indice].id);
+        fprintf(outfile,"Tiempo %d - %d; P%d\n", tiempo, tiempo + tiempo_ejecucion, p[indice].id);
 
         tiempo += tiempo_ejecucion;
         p[indice].remaining -= tiempo_ejecucion;
@@ -135,15 +149,15 @@ void simulate_rr(Process *p, int n, int quantum){
     }
 
     //Mostramos resultados
-    printf("Mostramos resultados");
-    printf("Proceso   Llegada   Burst  Inicio   Fin   Espera   Retorno   Respuesta\n");
+    fprintf(outfile,"Mostramos resultados: \n");
+    fprintf(outfile,"Proceso   Llegada   Burst  Inicio   Fin   Espera   Retorno   Respuesta\n");
 
     double promedio_espera = 0;
     double promedio_retorno = 0;
     double promedio_respuesta = 0;
 
     for(int i = 0; i < n; i++){
-        printf("P%-7d %-8d %-6d %-7d %-4d %-7d %-8d %-9d\n",
+        fprintf(outfile,"P%-7d %-8d %-6d %-7d %-4d %-7d %-8d %-9d\n",
                p[i].id,
                p[i].arrival,
                p[i].burst,
@@ -162,24 +176,40 @@ void simulate_rr(Process *p, int n, int quantum){
     promedio_retorno /= n;
     promedio_respuesta /= n;
 
-    printf("\nPromedios:\n");
-    printf("Tiempo de espera promedio: %.2f\n",
+    fprintf(outfile,"\nPromedios:\n");
+    fprintf(outfile,"Tiempo de espera promedio: %.2f\n",
            promedio_espera);
 
-    printf("Tiempo de retorno promedio: %.2f\n",
+    fprintf(outfile,"Tiempo de retorno promedio: %.2f\n",
            promedio_retorno);
 
-    printf("Tiempo de respuesta promedio: %.2f\n",
+    fprintf(outfile,"Tiempo de respuesta promedio: %.2f\n",
            promedio_respuesta);
 
+    printf("Simulacion con %d quantums, guardada exitosamente en: %s\n", quantum,out_filename);
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
     Process procesos[MAX_PROCESOS];
     int n = 0;
+    FILE *file;
 
-    // Lee desde stdin hasta EOF: cada línea debe tener id arrival burst priority
-    while (scanf("%d %d %d %d",
+    if (argc == 1) {
+        file = stdin;
+    } else if (argc == 2) {
+        file = fopen(argv[1], "r");
+        if (file == NULL) {
+            printf("Error: No se pudo abrir el archivo '%s'\n", argv[1]);
+            return 1;
+        }
+    } else {
+        printf("Uso incorrecto.\n");
+        printf("Desde archivo: %s <archivo.txt>\n", argv[0]);
+        printf("Desde stdin:   %s\n", argv[0]);
+        return 1;
+    }
+
+    while (fscanf(file, "%d %d %d %d",
                  &procesos[n].id,
                  &procesos[n].arrival,
                  &procesos[n].burst,
@@ -199,6 +229,10 @@ int main(void) {
         }
     }
 
+    if (file != stdin) {
+        fclose(file);
+    }
+
     printf("Se leyeron %d procesos:\n", n);
     for (int i = 0; i < n; i++) {
         printf("P%3d: arrival=%3d burst=%2d priority=%d\n",
@@ -208,14 +242,15 @@ int main(void) {
                procesos[i].priority);
     }
 
-    // Aquí ya puedes llamar a tus funciones de simulación:
-    //void simulate_fcfs(Process *p, int n);
-    //void simulate_rr(Process *p, int n, int quantum);
-    //void simulate_sjf(Process *p, int n);
-    //void simulate_srtn(Process *p, int n);
-    //void simulate_priority(Process *p, int n);
+    #if defined(_WIN32)
+        _mkdir("resultados");
+        _mkdir("resultados/roundRobin");
+    #else 
+        mkdir("resultados", 0777); 
+        mkdir("resultados/roundRobin", 0777); 
+    #endif
 
-    /* ejecución de Roun Robin con diferentes quantum
+    /* ejecución de Round Robin con diferentes quantum
        Como requisito nos pidieron hacerlo con 4
     */
     simulate_rr(procesos, n, 2);
